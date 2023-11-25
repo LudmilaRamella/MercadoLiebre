@@ -1,5 +1,18 @@
 {
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords2": [],
+  "author": "Ludmila Kusznir Ramella",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

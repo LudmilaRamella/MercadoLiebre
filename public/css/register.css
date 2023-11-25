@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+.Form-register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.Form-register input{
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+
+    
+}
+
+.Text-input{
+    height: 45px;
+    -webkit-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+}
+
+.Form-register label{
+    margin: 3px;
+    color: #484848;
+}
+.perfil-Usuario{
+    display: flex;
+}
+
+.Button-flex {
+    margin: 2px 5px;
+}
+.Button-flex button{
+    width: 100%;
+}
+
+
+.Form-register button{
+    border: none;
+    margin: 4px;
+    height: 40px;
+    color: #fff;
+    background-color: #1259c3;
+    border-radius: 8px;
+    border: 1px solid #1259c3;
+}
+
+
+@media (min-width: 768px){
+    .Form-register{
+        width: 60%;
+    }
+    .Button-flex {
+        display: flex;
+        justify-content: center;
+        margin: 2px 5px;
+    }
+    .Button-flex button{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    
+    .Button-flex button{
+        transition: all 350ms;
+    }
+    
+    .Button-flex button:hover {
+        color:#1259c3 ;
+        background-color:#fff ;
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+
+    }
+}

@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #cdcdcd9c;
+}
+
+.main-header{
+   background-color:  #EAC926;
+   padding: 20px;
+}
+.hamburguer-button{
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 60px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+    transition: all 450ms
+}
+.hamburguer-button:hover{
+    color: #03264C;
+    background-color: #f0f8ff;
+    
+}
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.logo{
+    /* width: 200px; */
+    width: 50%;
+    display: flex;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+.main-header-top-bar input{
+    /* max-width:300px ;
+    max-height:100px ; */
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    border: solid;
+    border-color:#635e58 ;
+    background-size: 24px;
+    margin-bottom: 10px;
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 7px; ;
+    background-size: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0 ;
+    font-size: 17px;
+}
+.banner{
+        width: 100%;
+        height: 20%;
+}
+.banner img{
+    height : 100%;
+    width: 100%;
+}
+
+ .titulos{
+    font-size: 35px;
+    margin-left: 20px;
+    color: #666666;
+    font-style: bold;
+}
+
+
+.main-uv img{
+    width: 40%;
+    height: 30%;
+    
+}
+.main-ofertas img{
+    width: 40%;
+    height: 30%;
+}
+
+
+.main-uv{
+    
+    padding:0px 0;
+    margin: 10% 10%;
+    border-radius:5px ;
+    margin-bottom:0 ;
+    
+}
+.main-uv img{
+    width: 100%;
+}
+.main-uv{
+    
+    background-color:#ffffff; 
+    border-radius:1px;
+    transition: all 450ms;
+     
+}
+
+.prueba{
+    background-color:#ffffff; 
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom:20px ;
+   border-top:solid 1px #b8b5b5;
+   position: relative;
+  
+}
+.prueba i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px; 
+    color: #39b54a ;
+    
+}
+
+
+
+.prueba h3{
+    display: none;
+}
+.prueba p{
+    display: inline;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+.descuento {
+    font-size: 16px;
+    color: rgb(63, 186, 63);
+    
+}
+.footer{
+    margin-top: 70px;
+    background-color: #f0f8ff;
+    padding-bottom: 1%;
+    padding-top: 5px;
+    text-align: center;
+}
+.footer-sec{
+    margin: 30px 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    
+}
+.footer-copy{
+    
+    font-size: 2em;
+    margin: 10px;
+}
+.footer-sec p{
+    color: #716b6c;
+    margin-top: 0;
+}
+.footer-sec h4{
+    
+    margin-bottom: 0px;
+    color: #686c75;
+    font-style: normal;
+}
+.footer-sec i{
+    display: inline;
+    color: #1259c3;
+    font-size: 40px;
+}
+.footer-sec i:hover{
+    color: #03264C;
+}
+
+
+
+
+
+@media (min-width: 768px){
+    .main-header-top-bar{
+        display: flex;
+        gap: 0 30px;
+    }
+    
+    .form-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 30%;
+        justify-content: center;
+    }
+    .main-header-top-bar input{
+        width: 100%;
+    }
+    
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+    }
+    .copy-header{
+        max-width: 360px;
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;;
+        
+    }
+    .main-navbar ul{
+        display: flex;
+        align-items: center;
+
+    }
+    .main-navbar li {
+        margin: 0 5px;
+        
+    }
+    .main-basado-ultimas-vistas{
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   .main-sec-ofertas{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+    .main-uv{
+    
+    margin: 1% 1%;
+    height: 20%;
+    width: 45%; 
+    transition: all 550ms;
+   }
+   .main-uv .descripcion{
+    transition: all 350ms;
+   }
+   .main-uv:hover .descripcion {
+    display: block;
+    margin: 20px;
+    color: #686c75;
+    
+   }
+   .main-uv:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   .main-uv i{
+    transition: all 350ms;
+   }
+   .main-uv:hover i {
+    transform: rotateZ(-90deg);
+   }
+}
+
+@media (min-width: 1200px){
+    .logo{
+        width: 250px;
+    }
+    
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+        gap: 100px;
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .main-navbar{
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+    }
+
+    .main-navbar a {
+         font-size: 12px;
+         transition: all 450ms;
+    }
+
+    .main-navbar a:hover{
+        color: #f0f8ff;
+        
+    }
+
+    .banner img{
+        padding:0% 10%;
+    }
+    .main-header-top-bar input{
+        width:500px;
+        background-color: #ffffff;
+        border-radius: 0px;
+        border: #eeeded;
+        -webkit-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.45);
+        -moz-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.45);
+        box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.45);
+      }
+      .main-basado-ultimas-vistas{
+          display: flex;
+          
+          flex-wrap:nowrap ;
+      }
+     .main-sec-ofertas{
+        display: flex;
+        justify-content: center;
+        flex-wrap:nowrap ;
+     }
+      .main-uv{
+      
+      margin: 1% 1%;
+      height: 20%;
+      width: 30%; 
+     }
+     .footer {
+        display: flex;
+        padding-bottom: 20px;
+     }
+     .footer-copy{
+        display: flex;
+        order: -1; 
+        align-self: flex-end;
+        font-size: 15px;
+         margin-bottom: 0;
+       
+       
+     }
+
+}
